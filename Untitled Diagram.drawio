@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T16:45:01.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.11" etag="0uuN0QvXQ9uEn5RNh0Lk" type="github"><diagram id="-3zjkpDLm5XXOvjeBM26">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-12T17:31:17.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LB4E9VNWKV9k915sSF7R" version="14.6.11" type="github">
+  <diagram id="-3zjkpDLm5XXOvjeBM26" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-1" value="Web-приложение" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="159" y="70" width="510" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-2" value="&lt;b&gt;HttpApplicationState&lt;/b&gt;(Глобальная информация, используемая всеми сеансами)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-3" value="Сеанс А&lt;br&gt;(HttpSessionState)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-4" value="Сеанс B&lt;br&gt;(HttpSessionState)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-5" value="Сеанс С&lt;br&gt;(HttpSessionState)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CvW4ye1BhHk4kI8Wwp9w-6" target="CvW4ye1BhHk4kI8Wwp9w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-6" value="Клиент А" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CvW4ye1BhHk4kI8Wwp9w-7" target="CvW4ye1BhHk4kI8Wwp9w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-7" value="Клиент А" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CvW4ye1BhHk4kI8Wwp9w-8" target="CvW4ye1BhHk4kI8Wwp9w-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvW4ye1BhHk4kI8Wwp9w-8" value="Клиент А" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
